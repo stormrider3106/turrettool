@@ -435,7 +435,7 @@ class Window(QWidget):
             turretSize = self.weapon.size * turretOption + float(gearSize) + float(armorSize)
             turretCost = (self.weapon.cost + float(gearSize) * 5 + float(armorCost)) * turretOption
             if self.weaponTypeBox.currentText() == "Gauss Cannon":
-                rof = f"{int(self.weapon.componentValue)}/5"
+                rof = f"{self.weapon.componentValue}/5"
             else:
                 rof = calcRoF(self.weapon)
 
@@ -580,12 +580,13 @@ class Window(QWidget):
             noScrap = 0
             militarySystem = 1
             shippingLine = 0
-            beamWeapon = 0
+            beamWeapon = 1
             componentTypeID = categoryID
             componentValue = self.turretWeapon.componentValue
             electronicSystem = 0
             electronicCTD = 0
             self.turretTrackingSpeed
+            # TODO special funktion = 3 für particle beam
             specialFunction = 0
             maxSensorRange = 0
             resolution = 0
