@@ -6,4 +6,4 @@ download and extract TurretToolWin.7z to run and choose you AuroraDB file
 This tool is not complete yet and still has bugs and errors
 
 # Aurora Tool
-For a more complete tool withe the TurretTool integrated go [here](https://gitlab.com/KevinHonka/aurora_tools)
+For a more complete tool with the TurretTool integrated go [here](https://gitlab.com/KevinHonka/aurora_tools)
